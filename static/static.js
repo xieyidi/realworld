@@ -1,1 +1,1 @@
-// test static
+// test staticport:3008
