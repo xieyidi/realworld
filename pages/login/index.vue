@@ -18,7 +18,7 @@
 
                     <form @submit.prevent="onsubmit">
                     <fieldset v-if="!isLogin" class="form-group">
-                    <input class="form-control form-control-lg" v-model="user.name" type="text" placeholder="Your Name" required>
+                    <input class="form-control form-control-lg" v-model="user.username" type="text" placeholder="Your Name" required>
                     </fieldset>
                     <fieldset class="form-group">
                     <input class="form-control form-comtrol-lg" v-model="user.email" type="text" placeholder="Email" required>
