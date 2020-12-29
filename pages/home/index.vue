@@ -149,8 +149,10 @@ export default{
       // Your_Feed要求登录状态下，获取关注的列表
       const loadArticles = store.state.user&&tab==='Your_Feed'
       ? getFeedArticles:getArticles
-      const [articleRes, tagRes] = await Promise.all([//这两个任务可以并行
-        loadArticles({// 跳过前四条数据取5,6数据
+      //这两个任务可以并行
+      // limit=2,offset=4代表跳过前四条数据取5,6数据
+      const [articleRes, tagRes] = await Promise.all([
+        loadArticles({
             limit,
             offset:(page-1) * limit,
             tag:query.tag
@@ -158,7 +160,7 @@ export default{
         getTags()
       ])
       const {articles,articlesCount} = articleRes.data
-      const {tags} = tagRe.data
+      const {tags} = tagRes.data
       return {
         articles,
         articlesCount,
