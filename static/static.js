@@ -1,1 +1,1 @@
-// test staticport:22 wget
+// test staticport:8000 0.0.0.0
