@@ -46,7 +46,7 @@
 
         <div class="article-preview"
         v-for="article in articles"
-        :key="slug"
+        :key="article.slug"
         >
           <div class="article-meta">
             <nuxt-link :to="{name:'profile', params:{username:article.author.username}}">
