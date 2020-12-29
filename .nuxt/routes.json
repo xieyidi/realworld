@@ -1,43 +1,51 @@
 [
   {
     "path": "/",
-    "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\layout",
+    "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\real\\\\realworld\\\\pages\\\\layout",
     "children": [
       {
         "path": "",
         "name": "home",
-        "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\home"
+        "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\real\\\\realworld\\\\pages\\\\home",
+        "_name": "_3373d026"
       },
       {
         "path": "login",
         "name": "login",
-        "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\login"
+        "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\real\\\\realworld\\\\pages\\\\login",
+        "_name": "_3b3e7d02"
       },
       {
         "path": "registe",
         "name": "registe",
-        "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\login"
+        "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\real\\\\realworld\\\\pages\\\\login",
+        "_name": "_3b3e7d02"
       },
       {
         "path": "profile/:username",
         "name": "profile",
-        "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\profile"
+        "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\real\\\\realworld\\\\pages\\\\profile",
+        "_name": "_3eba1502"
       },
       {
         "path": "settings",
         "name": "settings",
-        "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\settings"
+        "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\real\\\\realworld\\\\pages\\\\settings",
+        "_name": "_29c89bea"
       },
       {
         "path": "editor",
         "name": "editor",
-        "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\editor"
+        "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\real\\\\realworld\\\\pages\\\\editor",
+        "_name": "_200546f4"
       },
       {
         "path": "article/:slug",
         "name": "article",
-        "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\realworld-nuxtjs\\\\pages\\\\article"
+        "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\real\\\\realworld\\\\pages\\\\article",
+        "_name": "_2584584f"
       }
-    ]
+    ],
+    "_name": "_2bd420b1"
   }
 ]
